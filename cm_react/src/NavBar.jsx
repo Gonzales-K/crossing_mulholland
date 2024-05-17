@@ -21,26 +21,26 @@ function NavBar() {
     <div className="nav-div-section" /*id="navbar-multi-level"*/>
       <ul className="nav-item-left ">
         <li className=" nav-link">
-          <a href="#"  aria-current="home page">Home</a>
+          <a href="/"  aria-current="home page">Home</a>
         </li>
         <li>
-            <a href="#" className="nav-link">Collections</a>
+            <a href="/collections" className="nav-link">Collections</a>
         </li>
         <li>
-          <a href="#" className="nav-link">Care Guide</a>
+          <a href="/care" className="nav-link">Care Guide</a>
         </li>
         <li>
-          <a href="#" className="nav-link">Our Story</a>
+          <a href="/about" className="nav-link">Our Story</a>
         </li>
         <li>
-          <a href="#" className="nav-link">Contact Us</a>
+          <a href="/contact" className="nav-link">Contact Us</a>
         </li>
       </ul>
     </div>
     <div className="nav-div-section">
         <ul className="nav-item-right">
             <li className="nav-link">
-                <span class="[&>svg]:h-5 [&>svg]:w-5">
+                <span className="[&>svg]:h-5 [&>svg]:w-5">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
@@ -52,7 +52,7 @@ function NavBar() {
                 </span>
             </li>
             <li className="nav-link">
-            <span class="[&>svg]:h-5 [&>svg]:w-5">
+            <span className="[&>svg]:h-5 [&>svg]:w-5">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
@@ -63,7 +63,7 @@ function NavBar() {
             </span>
             </li>
             <li className="nav-link">
-            <span class="[&>svg]:h-5 [&>svg]:w-5">
+            <span className="[&>svg]:h-5 [&>svg]:w-5">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"

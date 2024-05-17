@@ -31,6 +31,7 @@
   font-size: large;
   font-weight: 500;
 }
+
 .nav-item-right {
   display: flex;
   flex-direction: row;
@@ -40,9 +41,11 @@
   font-size: large;
 
 }
+
 .nav-link {
   padding: 0 1em;
 }
+
 a:hover{
   text-decoration: underline;
 }
