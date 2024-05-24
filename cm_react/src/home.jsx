@@ -6,6 +6,9 @@ export default function Home(){
                 <h1>Crossing Mulholland</h1>
             </div>
         </section>
+        <section className="suggested-items">
+            
+        </section>
         </>
     )
-}
+};

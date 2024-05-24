@@ -4,4 +4,4 @@ export default function About(){
             <h1>This is the about page!</h1>
         </>
     )
-}
+};

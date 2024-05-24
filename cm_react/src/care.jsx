@@ -4,4 +4,4 @@ export default function Care(){
             <h1>This is the Care Guide!</h1>
         </>
     )
-}
+};

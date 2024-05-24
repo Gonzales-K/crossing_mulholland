@@ -4,4 +4,4 @@ export default function Collections(){
             <h1>This is the Collections page!</h1>
         </>
     )
-}
+};

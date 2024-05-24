@@ -4,4 +4,4 @@ export default function Checkout(){
             <h1>This is the Checkout page!</h1>
         </>
     )
-}
+};

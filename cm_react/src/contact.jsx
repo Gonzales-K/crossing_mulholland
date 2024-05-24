@@ -4,4 +4,4 @@ export default function Contact(){
             <h1>This is the Contact page!</h1>
         </>
     )
-}
+};
