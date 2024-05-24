@@ -1,7 +1,11 @@
 export default function Home(){
     return (
         <>
-            <h1>This is the home page!</h1>
+        <section className="hero-container">
+            <div className="hero">
+                <h1>Crossing Mulholland</h1>
+            </div>
+        </section>
         </>
     )
 }

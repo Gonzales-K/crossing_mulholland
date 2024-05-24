@@ -49,3 +49,24 @@
 a:hover{
   text-decoration: underline;
 }
+
+/* MAIN PAGE */
+.hero-container{
+  display: block;
+  height: 70vmin;
+  margin-top: 1;
+}
+
+.hero {
+  display: block;
+  min-height: 50%;
+  background: center/cover  no-repeat url("./img/hero_pic.jpg");
+  background-position-y: 25%;
+  h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 1.5em;
+    color: rgb(211, 234, 255);
+  }
+}
