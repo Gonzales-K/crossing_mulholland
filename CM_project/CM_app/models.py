@@ -4,13 +4,20 @@ from django.db import models
 class Collection(models.Model):
     collection_name = models.CharField(max_length = 20)
 
+class Care(models.Model):
+    fabric = models.CharField(max_length = 20)
+    care = models.TextField()
+
 class Item(models.Model):
     name = models.CharField(max_length = 20)
-    fabric = models.CharField(max_length = 20)
-    care_instructions = models.TextField()
     price = models.PositiveSmallIntegerField()
+    fabric = models.ForeignKey(
+        Care,
+        related_name= 'item',
+        on_delete=models.CASCADE
+    )
     collection = models.ForeignKey(
         Collection,
         related_name = 'item',
-        on_delete = models.CASCADE,
+        on_delete = models.CASCADE
     )

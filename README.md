@@ -5,7 +5,7 @@
 
 ##Front-end FEATURES
     Nav bar/footer that persist throughout site. Nav bar and links to:
-        - Homepage (from the logo)
+        - Homepage (from the logo) -c
         - Collection Pages (with parent dropdown)
         - Care Instructions
         - FAQ Page
@@ -13,11 +13,11 @@
         - Cart (icon)
         - Socials (icons)
     Homepage will feature:
-        - Hero section with background image. Foreground will be the company name.
+        - Hero section with background image. Foreground will be the company name. (complete)
         - Gallery section with images of items
             # These will navigate to the detail page for the item on click
     Collection Pages
-        - Will have a header section for the title
+        - Will have a section for the title
         - Will have a gallery section for the featured items
         - Each item will display it's name and price with options to view details or add to cart
     Item Detail Pages
