@@ -11,6 +11,7 @@ class Care(models.Model):
 class Item(models.Model):
     name = models.CharField(max_length = 20)
     price = models.PositiveSmallIntegerField()
+    picture = models.ImageField()
     fabric = models.ForeignKey(
         Care,
         related_name= 'item',
