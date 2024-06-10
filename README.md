@@ -1,6 +1,6 @@
 ##CONCEPT
     This is a sample fashion retail site.
-    It will be built using JavaScript, React, Python, and a PostgreSQL db.
+    It will be built using JavaScript, React, Django, Python, and a PostgreSQL db.
 
 
 ##Front-end FEATURES
@@ -37,15 +37,13 @@
         - A suggested additions section at the bottom
 
 ##Back-end Features
-    Postgres DB
+    Postgres DB - completed
     Migrations 
         -Structure DB tables
     Queries 
         - Create pydantic models for db queries
+        
     Routers 
         - Create RESTful urls to call methods on the pydantic models
     Tests
         - Conduct unit testing
-NOTES
-    I may eventually add user authentication and inventory tracking functionality.
-    This is an initial concept and subject to change.
