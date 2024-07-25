@@ -1,9 +1,12 @@
-##CONCEPT
+# Crossing Mulholland
+
+**Description**
+
     This is a sample fashion retail site.
     It will be built using JavaScript, React, Django, Python, and a PostgreSQL db.
 
 
-##Front-end FEATURES
+**Front-end FEATURES**
     Nav bar/footer that persist throughout site. Nav bar and links to:
         - Homepage (from the logo & link option) -completed
         - Collection Pages (with parent dropdown)
@@ -36,7 +39,8 @@
         - The current bill summary
         - A suggested additions section at the bottom
 
-##Back-end Features
+**Back-end Features**
+
     Postgres DB - completed
     Migrations 
         -Structure DB tables
@@ -47,3 +51,6 @@
         - Create RESTful urls to call methods on the pydantic models
     Tests
         - Conduct unit testing
+
+**How To Use**
+    This is not ready to be cloned and used by third parties yet. 
